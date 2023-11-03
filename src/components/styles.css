@@ -1,0 +1,32 @@
+.feed {
+    margin: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+  
+  .interaction {
+    margin-top: 10px;
+  }
+  
+  .btn-like {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-dislike {
+    background-color: #e0245e;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

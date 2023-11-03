@@ -1,0 +1,49 @@
+.post {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background-color: #fff;
+  }
+  
+  .post.editing {
+    background-color: #f0f0f0;
+  }
+  
+  .post p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .post .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  
+  .post .actions button {
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .post .actions button.save {
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .post .actions button.cancel {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .post .actions button.like.liked {
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .post .actions button.dislike.disliked {
+    background-color: #d9534f;
+    color: white;
+  }
+  
